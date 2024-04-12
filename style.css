@@ -134,3 +134,133 @@ body {
   background-color: #313338;
   flex: 1;
 }
+
+/* upper bar*/
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  box-shadow: 0px 2px 0px #1f2023;
+  align-items: center;
+  padding: 8px;
+}
+
+.left-child {
+  align-items: center;
+  height: 32px;
+  display: flex;
+}
+
+.left-child .friend-icon {
+  display: flex;
+  align-items: center;
+}
+
+.left-child .seperated {
+  height: 24px;
+  width: 1px;
+  background-color: #80848e;
+}
+
+.left-child .friend-bar {
+  display: flex;
+  gap: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#add-05 {
+  background-color: #248046;
+  width: 91px;
+  height: 24px;
+  border-radius: 5px;
+}
+
+.text-space {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#left-text-friend-icon {
+  font-weight: 550;
+  margin-right: 8px;
+}
+.text-friend-bar {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  text-align: center;
+}
+
+.toolbar {
+  width: 137px;
+  height: 32px;
+  background-color: #313338;
+  display: flex;
+}
+
+.seperated2 {
+  width: 1px;
+  height: 24px;
+  background-color: #80848e;
+}
+
+.toolbar-icon {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/*online bar*/
+.online-status {
+  display: flex;
+  flex-direction: row;
+}
+.online-status-left {
+  width: 694px;
+}
+
+.search-bar-container {
+  margin: 16px 20px 8px 30px;
+  width: 644px;
+  height: 34px;
+  background-color: #1e1f22;
+  display: flex;
+  border-radius: 5px;
+  padding: 1px;
+}
+.sb-01 {
+  flex: 1;
+  height: 34px;
+  border: none;
+  outline: 0;
+  background-color: transparent;
+  padding: 0 8px;
+  margin: 1px;
+  line-height: 32px;
+  font-size: 15px;
+  color: white;
+}
+.sb-02 {
+  flex-shrink: 0;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.online-title-01 {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.online-title-02 {
+  flex: 1 1 auto;
+  margin: 16px 20px 8px 30px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b5bac1;
+}
